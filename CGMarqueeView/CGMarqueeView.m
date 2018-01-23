@@ -84,7 +84,7 @@
     
     if (CG_SYSTEM_VERSION_LESS_THAN(@"7.0")) {
 #pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wundeclared-selector"
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
         size = [string sizeWithFont:font
                   constrainedToSize:CGSizeMake(1000, 200)
                       lineBreakMode:0];
